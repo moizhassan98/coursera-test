@@ -20,10 +20,14 @@
 		font-size: 125%;
 		border:1px solid black;
 		padding:2px 5px 2px 5px;
+		
 		position: absolute;
 		right:0px;
 		top:0px;
 
+	}
+	.content{
+		padding-top: 7px;
 	}
 	h1{
 		font-size: 175%;
