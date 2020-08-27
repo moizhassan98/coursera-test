@@ -1,0 +1,75 @@
+<style>
+	/*-------------- Base Styles----------------*/
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	div.box{
+		position:relative;
+		box-sizing: border-box;
+		background-color: grey;
+		padding: 7px;
+		border: 1px solid black;
+		margin:5px;
+		float:left;
+
+		
+	}
+	div.section{
+		font-size: 125%;
+		border:1px solid black;
+		padding:2px 5px 2px 5px;
+		position: absolute;
+		right:0px;
+		top:0px;
+
+	}
+	h1{
+		font-size: 175%;
+		text-align: center;
+	}
+
+	#Chicken{
+		background-color: pink;
+	}
+
+	#Beef{
+		background-color: maroon;
+	}
+
+	#Sushi{
+		background-color: yellow;
+	}
+
+	/*****************Desktop View*********************/
+	@media(min-width: 992px){
+		div.box{
+			width:32%;
+		}
+	}
+	/****************Tablet View**********************/
+	@media(min-width:768px ) and (max-width: 991px){
+		.tablet-6{
+			width:48%;
+		}
+		.tablet-12{
+			width:100%;
+		}
+		
+	}
+	/***************Mobile View*********************/
+	@media(max-width: 767px){
+		.mobile-12{
+			width: 100%;
+		}
+	}
+
+
+
+
+
+</style>
