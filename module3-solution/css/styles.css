@@ -1,0 +1,46 @@
+/* START HEADER */
+.navbar{
+	background-color: black;
+}
+
+.navbar-brand{
+	color: white;
+}
+
+.navbar-brand:hover{
+	color:#ccc4;
+}
+
+header{
+	box-shadow: 0px 5px 5px #cccc;
+	width:100%;
+}
+
+
+
+#nav-list{
+	text-align: center;
+}
+/* END HEADER */
+
+
+/*********** for Large and above devices *******************/
+@media (min-width: 992px){
+
+}
+
+/* END Large devices */
+
+/*********** for Medium Devices ****************************/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+/* END medium Devices*/
+
+
+/*********** for Small Devices ****************************/
+
+@media (min-width: 576px){
+
+}
+/* END Small Devices */
